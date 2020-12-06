@@ -1,6 +1,8 @@
 def archivo(url):
   archivoUrl =  open(url)
-  martriz = []
- 
+  matriz = []
   for linea in archivoUrl.readlines():
-    print(linea)    
+    valores = linea.split(",")
+    matriz.append(valores)
+  matriz.pop(0)
+  return matriz      

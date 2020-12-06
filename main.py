@@ -1,4 +1,5 @@
 import lectura
+import operaciones
 """ MENU DEL SISTEMA"""
 def menu():
   while(True):
@@ -12,7 +13,7 @@ def menu():
       url = input()
       lectura.archivo(url)
     elif (casteoNumero == 2 ):
-      print("CALCULO DE DATOS")
+      operaciones.calculos(lectura.archivo(url))
     elif(casteoNumero == 3):
       print("GENERACION DE ARCHIVO JS")
     elif (casteoNumero == 4):
