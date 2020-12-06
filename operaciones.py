@@ -41,7 +41,6 @@ def calculos (url):
   todoslosDatos.append(arregloSalario)
   todoslosDatos.append(trabajo2)
   """---------------------------------------"""
-  print(todoslosDatos)
   return todoslosDatos
    
 

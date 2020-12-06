@@ -1,0 +1,25 @@
+{
+    "chef": {
+        "Candidatos": 3,
+        "Edad Promedio": 21.666666666666668,
+        "Pretension Salarial": 5733.333333333333
+    }
+,
+    "desarrollador": {
+        "Candidatos": 3,
+        "Edad Promedio": 34.0,
+        "Pretension Salarial": 3633.3333333333335
+    }
+,
+    "programador": {
+        "Candidatos": 4,
+        "Edad Promedio": 23.0,
+        "Pretension Salarial": 4500.0
+    }
+,
+    "limpieza": {
+        "Candidatos": 2,
+        "Edad Promedio": 34.0,
+        "Pretension Salarial": 2300.0
+    }
+}

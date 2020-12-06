@@ -1,5 +1,6 @@
 import lectura
 import operaciones
+import archivoJSON
 """ MENU DEL SISTEMA"""
 def menu():
   while(True):
@@ -14,8 +15,9 @@ def menu():
       lectura.archivo(url)
     elif (casteoNumero == 2 ):
       operaciones.calculos(lectura.archivo(url))
+      print("SE REALIZARON LOS CALCULOS CON EXITO..................")
     elif(casteoNumero == 3):
-      print("GENERACION DE ARCHIVO JS")
+     archivoJSON.archivojson(operaciones.calculos(lectura.archivo(url)))
     elif (casteoNumero == 4):
        break
 menu() 
