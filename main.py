@@ -5,7 +5,7 @@ import archivoJSON
 def menu():
   while(True):
     print("*********************MENU********************")
-    print("1) LECTURA DE ARCHIVOS CSV 2) CALCULO DE DATOS 3) GENERACION DE ARCHIVOS JS 4) SALIR DEL PROGRAMA")
+    print("1) LECTUR1A DE ARCHIVOS CSV 2) CALCULO DE DATOS 3) GENERACION DE ARCHIVOS JS 4) SALIR DEL PROGRAMA")
     print("SELECCIONE UNA OPCION DEL MENU")
     numeroMenu = input()
     casteoNumero = int(numeroMenu)

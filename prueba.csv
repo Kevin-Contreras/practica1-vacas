@@ -1,13 +1,23 @@
 id,nombre,apellido,edad,puesto al que aplica,pretencion salarial
-1,mario,doy,25,chef,4000
+1,mario,doy,20,chef,1200
+1,mario,doy,20,chef,1200
+1,mario,doy,20,chef,1200
+1,mario,doy,20,chef,1200
+1,mario,doy,20,chef,1200
+1,mario,doy,20,chef,1200
+1,mario,doy,20,chef,1200
+1,mario,doy,20,chef,1200
+1,mario,doy,20,chef,1200
 2,carlos,gr,23,programador,4500
 2,carlos,gr,23,programador,4500
 2,carlos,gr,23,programador,4500
 1,mario,doy,20,chef,1200
-1,mario,doy,20,chef,12000
 2,carlos,gr,23,programador,4500
 3,miguel,de,34,limpieza,2300
 3,miguel,de,34,desarrollador,2300
 3,maria,de,34,desarrollador,5300
 3,marat,de,34,desarrollador,3300
 3,miguel,de,34,limpieza,2300
+4,miguel,de,34,limpieza,2300
+1,mario,doy,20,chef,1200
+1,mario,doy,20,chef,1200

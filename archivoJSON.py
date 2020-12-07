@@ -7,7 +7,7 @@ def archivojson(url):
     diccionario  = {url[3][trabajo]:{ 'Candidatos':url[0][trabajo],'Edad Promedio':url[1][trabajo],'Pretension Salarial':url[2][trabajo]}}
     j = json.dumps(diccionario,sort_keys=True, indent=4)
     verdad = str(j)[1:-1]+","
-    cadena =  cadena +verdad
+    cadena =  cadena + verdad
   archivo = open("archivo.json","w")
   archivo.write("{"+cadena.strip(",")+"}")
   archivo.close()
