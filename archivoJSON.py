@@ -1,4 +1,5 @@
 import json
+import os
 def archivojson(url):
   cadena =""
   cadena2 = ""
@@ -11,4 +12,4 @@ def archivojson(url):
   archivo = open("archivo.json","w")
   archivo.write("{"+cadena.strip(",")+"}")
   archivo.close()
- 
+  os.system("archivo.json")

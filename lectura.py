@@ -54,5 +54,5 @@ def archivo(url):
   set(matrizSalario) 
   set(matrizEmpleo) 
   set(matrizID)
-  print(matrizSinRepeticion)
+  
   return matrizSinRepeticion      

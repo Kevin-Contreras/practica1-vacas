@@ -18,7 +18,6 @@ def menu():
       url = input()
       lectura.archivo(url)
     elif (casteoNumero == 2 ):
-      print(numero)
       if(numero==1):
         
         operaciones.calculos(lectura.archivo(url))
